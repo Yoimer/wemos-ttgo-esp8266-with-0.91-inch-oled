@@ -1,0 +1,394 @@
+//http://things.ubidots.com/api/v1.6/devices/oled/web_value/values?token=A1E-i5m3qmzERF7kb414GGBkmLjRVtfrXH
+
+{
+    "count": true,
+    "previous": null,
+    "results": [
+        {
+            "timestamp": 1544570340461,
+            "created_at": 1544570340588,
+            "context": {
+                "key": "esternocleidomastoideo"
+            },
+            "value": 12369.77
+        },
+        {
+            "timestamp": 1544570327438,
+            "created_at": 1544570327554,
+            "context": {
+                "key": "esternocleidomastoideo"
+            },
+            "value": 55.8
+        },
+        {
+            "timestamp": 1544570314365,
+            "created_at": 1544570314535,
+            "context": {
+                "key": "esternocleidomastoideo"
+            },
+            "value": 55
+        },
+        {
+            "timestamp": 1544570298953,
+            "created_at": 1544570299103,
+            "context": {
+                "key": "esternocleidomastoideo"
+            },
+            "value": 8080
+        },
+        {
+            "timestamp": 1544569973582,
+            "created_at": 1544569973708,
+            "context": {
+                "key": "esternocleidomastoideo"
+            },
+            "value": 82.85
+        },
+        {
+            "timestamp": 1544569965312,
+            "created_at": 1544569965431,
+            "context": {
+                "key": "esternocleidomastoideo"
+            },
+            "value": 82
+        },
+        {
+            "timestamp": 1544569714093,
+            "created_at": 1544569714278,
+            "context": {
+                "key": "esternocleidomastoideo"
+            },
+            "value": 777
+        },
+        {
+            "timestamp": 1544568351569,
+            "created_at": 1544568351788,
+            "context": {
+                "key": "esternocleidomastoideo"
+            },
+            "value": 95
+        },
+        {
+            "timestamp": 1544567558956,
+            "created_at": 1544567559085,
+            "context": {
+                "key": "esternocleidomastoideo"
+            },
+            "value": 32165
+        },
+        {
+            "timestamp": 1544567524710,
+            "created_at": 1544567524830,
+            "context": {
+                "key": "esternocleidomastoideo"
+            },
+            "value": 7320
+        },
+        {
+            "timestamp": 1544567506009,
+            "created_at": 1544567506165,
+            "context": {
+                "key": "hello world"
+            },
+            "value": 7320
+        },
+        {
+            "timestamp": 1544567494000,
+            "created_at": 1544567494669,
+            "context": {
+                "key": "hello world"
+            },
+            "value": 80.8
+        },
+        {
+            "timestamp": 1544567478777,
+            "created_at": 1544567478915,
+            "context": {
+                "key": "hello world"
+            },
+            "value": 80.8
+        },
+        {
+            "timestamp": 1544567472620,
+            "created_at": 1544567475430,
+            "context": {
+                "key": "hello world"
+            },
+            "value": 80.8
+        },
+        {
+            "timestamp": 1544567374680,
+            "created_at": 1544567374808,
+            "context": {
+                "key": "hello world"
+            },
+            "value": 4
+        },
+        {
+            "timestamp": 1544567360432,
+            "created_at": 1544567361488,
+            "context": {
+                "key": "KEY-VALUE"
+            },
+            "value": 4
+        },
+        {
+            "timestamp": 1544567337316,
+            "created_at": 1544567337463,
+            "context": {
+                "key": "KEY-VALUE"
+            },
+            "value": 30
+        },
+        {
+            "timestamp": 1544567211674,
+            "created_at": 1544567211810,
+            "context": {},
+            "value": 7070
+        },
+        {
+            "timestamp": 1544566748909,
+            "created_at": 1544566749058,
+            "context": {},
+            "value": 808080
+        },
+        {
+            "timestamp": 1544566662518,
+            "created_at": 1544566662647,
+            "context": {},
+            "value": 80
+        },
+        {
+            "timestamp": 1544566590915,
+            "created_at": 1544566592779,
+            "context": {},
+            "value": 22
+        },
+        {
+            "timestamp": 1544566568620,
+            "created_at": 1544566568739,
+            "context": {},
+            "value": 448080
+        },
+        {
+            "timestamp": 1544565826530,
+            "created_at": 1544565826663,
+            "context": {
+                "key": "qwertyuioplkjhgfdsa"
+            },
+            "value": 2525
+        },
+        {
+            "timestamp": 1544565816996,
+            "created_at": 1544565817189,
+            "context": {
+                "key": "qwertyuioplkjhgfdsa"
+            },
+            "value": 9090
+        },
+        {
+            "timestamp": 1544565779301,
+            "created_at": 1544565779444,
+            "context": {
+                "key": "KEY-VALUE"
+            },
+            "value": 9090
+        },
+        {
+            "timestamp": 1544562538875,
+            "created_at": 1544562539000,
+            "context": {
+                "key": "KEY-VALUE"
+            },
+            "value": 9090
+        },
+        {
+            "timestamp": 1544562518003,
+            "created_at": 1544562518156,
+            "context": {
+                "key": "KEY-VALUE"
+            },
+            "value": 8080
+        },
+        {
+            "timestamp": 1544559545268,
+            "created_at": 1544559545710,
+            "context": {},
+            "value": 8080
+        },
+        {
+            "timestamp": 1544559536437,
+            "created_at": 1544559536559,
+            "context": {},
+            "value": 2.80808
+        },
+        {
+            "timestamp": 1544559473446,
+            "created_at": 1544559473575,
+            "context": {},
+            "value": 0.07
+        },
+        {
+            "timestamp": 1544556579458,
+            "created_at": 1544556579626,
+            "context": {},
+            "value": 0.00158
+        },
+        {
+            "timestamp": 1544555752446,
+            "created_at": 1544555752593,
+            "context": {},
+            "value": 26547
+        },
+        {
+            "timestamp": 1544555677823,
+            "created_at": 1544555677950,
+            "context": {},
+            "value": 444
+        },
+        {
+            "timestamp": 1544555628300,
+            "created_at": 1544555628415,
+            "context": {},
+            "value": 80808080808080
+        },
+        {
+            "timestamp": 1544555600450,
+            "created_at": 1544555600710,
+            "context": {},
+            "value": 80808080
+        },
+        {
+            "timestamp": 1544555584774,
+            "created_at": 1544555585229,
+            "context": {},
+            "value": 8080
+        },
+        {
+            "timestamp": 1544555490182,
+            "created_at": 1544555490346,
+            "context": {},
+            "value": 111
+        },
+        {
+            "timestamp": 1544555471086,
+            "created_at": 1544555471220,
+            "context": {},
+            "value": 111
+        },
+        {
+            "timestamp": 1544555282647,
+            "created_at": 1544555282778,
+            "context": {},
+            "value": 369
+        },
+        {
+            "timestamp": 1544554972940,
+            "created_at": 1544554973070,
+            "context": {},
+            "value": 999
+        },
+        {
+            "timestamp": 1544554940670,
+            "created_at": 1544554940808,
+            "context": {},
+            "value": 555.368
+        },
+        {
+            "timestamp": 1544554925979,
+            "created_at": 1544554926943,
+            "context": {},
+            "value": 147.63
+        },
+        {
+            "timestamp": 1544554904710,
+            "created_at": 1544554905106,
+            "context": {},
+            "value": 127.62
+        },
+        {
+            "timestamp": 1544554881372,
+            "created_at": 1544554881534,
+            "context": {},
+            "value": 333
+        },
+        {
+            "timestamp": 1544505276839,
+            "created_at": 1544505276957,
+            "context": {},
+            "value": 777
+        },
+        {
+            "timestamp": 1544505228257,
+            "created_at": 1544505228381,
+            "context": {},
+            "value": 777
+        },
+        {
+            "timestamp": 1544504826210,
+            "created_at": 1544504826356,
+            "context": {},
+            "value": 999
+        },
+        {
+            "timestamp": 1544504801378,
+            "created_at": 1544504801826,
+            "context": {},
+            "value": 999
+        },
+        {
+            "timestamp": 1544500171535,
+            "created_at": 1544500171705,
+            "context": {},
+            "value": 147
+        },
+        {
+            "timestamp": 1544500160076,
+            "created_at": 1544500160271,
+            "context": {},
+            "value": 147
+        },
+        {
+            "timestamp": 1544499513450,
+            "created_at": 1544499513583,
+            "context": {},
+            "value": 147
+        },
+        {
+            "timestamp": 1544497469155,
+            "created_at": 1544497469280,
+            "context": {},
+            "value": 2587
+        },
+        {
+            "timestamp": 1544497048116,
+            "created_at": 1544497048237,
+            "context": {},
+            "value": 8080
+        },
+        {
+            "timestamp": 1544496922017,
+            "created_at": 1544496922152,
+            "context": {},
+            "value": 12.58
+        },
+        {
+            "timestamp": 1544496906031,
+            "created_at": 1544496906163,
+            "context": {},
+            "value": 789654
+        },
+        {
+            "timestamp": 1544496768784,
+            "created_at": 1544496768933,
+            "context": {},
+            "value": 5555
+        },
+        {
+            "timestamp": 1544496702152,
+            "created_at": 1544496702577,
+            "context": {},
+            "value": 77777777
+        }
+    ],
+    "next": null
