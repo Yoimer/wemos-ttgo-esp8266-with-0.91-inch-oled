@@ -5,6 +5,10 @@
 #include <U8g2lib.h>      // make sure to add U8g2 library and restart Arduino IDE  
 #include <SPI.h>
 #include <Wire.h>
+#include <ESP8266WiFiMulti.h>
+#include <ESP8266HTTPClient.h>
+#define USE_SERIAL Serial
+ESP8266WiFiMulti WiFiMulti;
 
 /****************************************
  * Define Constants
@@ -34,7 +38,43 @@ void callback(char* topic, byte* payload, unsigned int length) {
     show_on_display += (char)payload[i];
   }
   Serial.println();
+  updateScreen();
   
+}
+
+void updateScreen() {
+        // wait for WiFi connection
+    if((WiFiMulti.run() == WL_CONNECTED)) {
+
+        HTTPClient http;
+
+        USE_SERIAL.print("[HTTP] begin...\n");
+        // configure traged server and url
+        //http.begin("https://192.168.1.12/test.html", "7a 9c f4 db 40 d3 62 5a 6e 21 bc 5c cc 66 c8 3e a1 45 59 38"); //HTTPS
+        http.begin("http://things.ubidots.com/api/v1.6/devices/oled/web_value/values?token=A1E-i5m3qmzERF7kb414GGBkmLjRVtfrXH"); //HTTP
+
+        USE_SERIAL.print("[HTTP] GET...\n");
+        // start connection and send HTTP header
+        int httpCode = http.GET();
+
+        // httpCode will be negative on error
+        if(httpCode > 0) {
+            // HTTP header has been send and Server response header has been handled
+            USE_SERIAL.printf("[HTTP] GET... code: %d\n", httpCode);
+
+            // file found at server
+            if(httpCode == HTTP_CODE_OK) {
+                String payload = http.getString();
+                USE_SERIAL.println(payload);
+            }
+        } else {
+            USE_SERIAL.printf("[HTTP] GET... failed, error: %s\n", http.errorToString(httpCode).c_str());
+        }
+
+        http.end();
+    } else {
+        USE_SERIAL.println("There is a network problem");
+    }
 }
 
 /****************************************
@@ -49,6 +89,11 @@ void setup() {
   client.wifiConnection(WIFINAME, WIFIPASS);
   client.begin(callback);
   client.ubidotsSubscribe("oled","web_value"); //Insert the dataSource and Variable's Labels
+
+  // for GET requests
+  WiFi.mode(WIFI_STA);
+  WiFiMulti.addAP(WIFINAME, WIFIPASS);
+
   }
 
 void loop() {
